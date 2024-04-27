@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const TabsLayout = () => {
+const AutoSignUp = () : React.JSX.Element => {
   return (
     <View>
-      <Text>TabsLayout</Text>
+      <Text>AutoSignUp</Text>
     </View>
   )
 }
 
-export default TabsLayout
+export default AutoSignUp

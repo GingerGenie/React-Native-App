@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const TabsLayout = () => {
+const AutoSignIn : React.FC = () => {
   return (
     <View>
-      <Text>TabsLayout</Text>
+      <Text>AutoSignIn</Text>
     </View>
   )
 }
 
-export default TabsLayout
+export default AutoSignIn

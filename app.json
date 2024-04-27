@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "working_app",
-    "slug": "working_app",
+    "name": "GiGe",
+    "slug": "gige",
+    "sheme": "gige",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -30,7 +31,21 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      ["expo-font",
+      {
+        "fonts": [
+          "../assets/fonts/Poppins-Black.ttf",
+          "../assets/fonts/Poppins-Bold.ttf",
+          "../assets/fonts/Poppins-ExtraBold.ttf",
+          "../assets/fonts/Poppins-ExtraLight.ttf",
+          "../assets/fonts/Poppins-Light.ttf",
+          "../assets/fonts/Poppins-Medium.ttf",
+          "../assets/fonts/Poppins-Regular.ttf",
+          "../assets/fonts/Poppins-SemiBold.ttf",
+          "../assets/fonts/Poppins-Thin.ttf"
+        ]
+      }]
     ],
     "experiments": {
       "typedRoutes": true
